@@ -50,4 +50,4 @@ chown -R jitsi /home/jitsi
 
 
 
-sudo -H -u jitsi bash -c 'docker-compose up' /home/jitsi/docker-jitsi-meet
+sudo -H -u jitsi bash -c 'docker-compose up /home/jitsi/docker-jitsi-meet' 
