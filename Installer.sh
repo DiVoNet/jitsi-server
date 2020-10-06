@@ -35,17 +35,17 @@ systemctl enable docker
 useradd jitsi
 usermod -L jitsi
 
-cd /home/jitsi
-
-
 
 # Setup the Docker Container
 
-git clone https://github.com/jitsi/docker-jitsi-meet && cp -r docker-jitsi-meet /home/jitsi/
+git clone https://github.com/jitsi/docker-jitsi-meet /home/jitsi/
 
-cp env.example .env
+
+
+cp -r files/* /home/jitsi
 
 mkdir -p /home/jitsi/.jitsi-meet-cfg/{web/letsencrypt,transcripts,prosody,jicofo,jvb}
+
 
 
 
