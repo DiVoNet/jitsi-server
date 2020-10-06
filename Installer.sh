@@ -46,8 +46,8 @@ rsync -avzP files /home/jitsi
 
 mkdir -p /home/jitsi/.jitsi-meet-cfg/{web/letsencrypt,transcripts,prosody,jicofo,jvb}
 
-
-
-
-
 chown -R jitsi /home/jitsi
+
+
+
+sudo -H -u jitsi bash -c 'docker-compose up' /home/jitsi/docker-jitsi-meet/docker-compose.yml
