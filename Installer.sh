@@ -35,6 +35,10 @@ systemctl enable docker
 useradd jitsi
 usermod -L jitsi
 
+groupadd docker
+service docker restart
+usermod -a -G docker jitsi
+
 
 # Setup the Docker Container
 rm -r /home/jitsi/*
