@@ -37,8 +37,8 @@ usermod -L jitsi
 
 
 # Setup the Docker Container
-
-git clone https://github.com/jitsi/docker-jitsi-meet /home/jitsi/
+rm -r /home/jitsi/*
+git clone https://github.com/jitsi/docker-jitsi-meet /home/jitsi/docker-jitsi-meet
 
 
 
