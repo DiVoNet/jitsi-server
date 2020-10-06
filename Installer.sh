@@ -50,4 +50,4 @@ mkdir -p /home/jitsi/.jitsi-meet-cfg/{web/letsencrypt,transcripts,prosody,jicofo
 
 
 
-chown -r /home/jitsi jitsi
+chown -R jitsi /home/jitsi
