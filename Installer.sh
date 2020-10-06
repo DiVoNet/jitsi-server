@@ -42,7 +42,7 @@ git clone https://github.com/jitsi/docker-jitsi-meet /home/jitsi/
 
 
 
-cp -r files/* /home/jitsi
+cp -f -R files/* /home/jitsi/
 
 mkdir -p /home/jitsi/.jitsi-meet-cfg/{web/letsencrypt,transcripts,prosody,jicofo,jvb}
 
