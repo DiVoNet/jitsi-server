@@ -41,7 +41,7 @@ cd /home/jitsi
 
 # Setup the Docker Container
 
-git clone https://github.com/jitsi/docker-jitsi-meet && cd docker-jitsi-meet
+git clone https://github.com/jitsi/docker-jitsi-meet && cp -r docker-jitsi-meet /home/jitsi/
 
 cp env.example .env
 
