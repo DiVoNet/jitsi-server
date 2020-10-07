@@ -48,7 +48,7 @@ git clone https://github.com/jitsi/docker-jitsi-meet /home/jitsi/docker-jitsi-me
 
 rsync -avzP files/* /home/jitsi
 
-mkdir -p /home/jitsi/.jitsi-meet-cfg/{web/letsencrypt,transcripts,prosody,jicofo,jvb,html}
+mkdir -p /home/jitsi/.jitsi-meet-cfg/{web/letsencrypt,transcripts,prosody,jicofo,jvb}
 
 chown -R jitsi /home/jitsi
 
