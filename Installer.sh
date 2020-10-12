@@ -52,6 +52,8 @@ git clone https://github.com/jitsi/docker-jitsi-meet /home/jitsi/docker-jitsi-me
 
 rsync -avzP files/* /home/jitsi
 
+bash /home/jitsi/docker-jitsi-meet/gen-passwords.sh
+
 mkdir -p /home/jitsi/.jitsi-meet-cfg/{web/letsencrypt,transcripts,prosody,jicofo,jvb,html}
 
 chown -R jitsi /home/jitsi
